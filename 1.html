@@ -111,7 +111,8 @@
     .menu-horizontal>li,
     .menu-vertical>li,
     body .latest-stats b {
-      font-family: "Uniform Bold", "Open Sans", Helvetica, Arial, sans-serif
+      font-family: "Uniform Bold", "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 700;
     }
 
     @keyframes fadein {
@@ -156,8 +157,8 @@
 
     @font-face {
       font-family: "uniform bold";
-      src: local("Uniform Bold"), url(/assets/fonts/uniform-bold-webfont.woff2) format("woff2"), url(/assets/fonts/uniform-bold-webfont.woff) format("woff");
-      font-weight: 400;
+      src: local("Uniform Bold"), url(./assets/fonts/uniform-bold-webfont.woff2) format("woff2"), url(./assets/fonts/uniform-bold-webfont.woff) format("woff");
+      font-weight: 700;
       font-style: normal;
       unicode-range: U+000-5FF;
       font-display: swap
@@ -165,7 +166,7 @@
 
     @font-face {
       font-family: "Open Sans";
-      src: local("Open Sans"), url(/assets/fonts/open-sans.woff2) format("woff2");
+      src: local("Open Sans"), url(./assets/fonts/open-sans.woff2) format("woff2");
       font-weight: 400;
       font-style: normal;
       unicode-range: U+000-5FF;
@@ -553,7 +554,7 @@
     h4,
     h5,
     h6 {
-      font-family: "Uniform Bold", Helvetica, Arial, sans-serif;
+      font-family: "Uniform Bold", Helvetica, Arial, sans-serif;  
       color: var(--color--secondary);
       font-weight: 500;
       font-variant-ligatures: common-ligatures;

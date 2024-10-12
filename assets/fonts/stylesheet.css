@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Uniform Pro Med';
+    src: url('FONTSPRINGDEMO-UniformProMedRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-UniformProMedRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
